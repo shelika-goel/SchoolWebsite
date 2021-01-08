@@ -53,3 +53,64 @@ input
     z-index:99999;
     
 }
+
+
+html {
+ scroll-behavior: smooth;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.travel
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.travel img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel hr
+{
+    width: 100%; 
+}
+
+.travel h5 , .travel p
+{
+margin-left: 20px;
+}
+
+
+#achievementID{
+ padding-bottom: 10px;
+}
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+
+
